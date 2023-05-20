@@ -50,7 +50,7 @@ function App() {
   useEffect(() => {
     setByname(data);
     setDesignation(data);
-  }, []);
+  }, [data]);
   return (
     <div className="container">
       <div>
